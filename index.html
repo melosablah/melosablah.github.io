@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Melosa | Portfolio</title>
+  <style>
+    :root{--bg:#0f172a;--ink:#e2e8f0;--muted:#94a3b8;--card:#111827;}
+    *{box-sizing:border-box}
+    body{margin:0;font:16px/1.6 system-ui,Arial;background:var(--bg);color:var(--ink)}
+    header{padding:64px 20px;text-align:center}
+    header h1{margin:0 0 8px;font-size:40px}
+    header p{margin:0;color:var(--muted)}
+    nav{margin-top:14px}
+    nav a{color:var(--ink);text-decoration:none;margin:0 10px;font-weight:600}
+    main{max-width:920px;margin:0 auto;padding:20px}
+    .card{background:var(--card);border-radius:14px;padding:20px;margin:18px 0;border:1px solid #1f2937}
+    h2{margin:8px 0 6px}
+    a{color:#93c5fd}
+    footer{padding:28px;text-align:center;color:var(--muted)}
+    .grid{display:grid;gap:16px}
+    @media(min-width:720px){.grid{grid-template-columns:1fr 1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hi, I’m Melosa 👋</h1>
+    <p>BBA (Marketing) • Creative Marketer • Aspiring Consultant</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>I blend marketing strategy with creativity—ad campaigns, branding, and side projects like crochet (Meyasa), a plant page, and an affirmation journal. I love turning ideas into neat, usable things.</p>
+    </section>
+
+    <section id="work" class="card">
+      <h2>Featured Work</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Renault — Advertising Study</h3>
+          <p>Explored the evolution of advertising and built a positioning concept deck.</p>
+        </div>
+        <div class="card">
+          <h3>Meyasa — Crochet Brand</h3>
+          <p>Launched a handmade line on Instagram; first drop was a red rose.</p>
+        </div>
+        <div class="card">
+          <h3>Affirmation Journal</h3>
+          <p>200-day interactive journal designed for KDP with activities & prompts.</p>
+        </div>
+        <div class="card">
+          <h3>Homecare — Festive Campaign</h3>
+          <p>Concepts across print, influencers, and a lucky draw for Puja–Diwali.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>📧 <a href="mailto:youremail@example.com">youremail@example.com</a><br/>
+         🔗 <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a><br/>
+         🌱 <a href="https://instagram.com/yourplantpage" target="_blank">Instagram (plants)</a></p>
+    </section>
+  </main>
+
+  <footer>© 2025 Melosa • Built on GitHub Pages</footer>
+</body>
+</html>
